@@ -77,7 +77,7 @@ msg['From'] = '"Umbro Botines" <dentalturno@gmail.com>'
 msg['To'] = 'tobsailbot@gmail.com'
 msg['Subject'] = 'BOTINES DISPONIBLES - Umbro Web Scraping Selenium'
 
-
+print(is_available)
 if is_available:
     # Agregar el cuerpo del mensaje
     msg.attach(MIMEText(output, "html"))
