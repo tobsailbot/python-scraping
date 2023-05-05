@@ -36,5 +36,5 @@ driver = webdriver.Chrome(options = chrome_options)
 driver.get('http://github.com')
 print(driver.title)
 with open('./GitHub_Action_Results.txt', 'w') as f:
-    f.write(f"Hola soy el tobsaa carajoooo {driver.title}")
+    f.write(f"Hola esto se corio mas rapido wey??? {driver.title}")
 
