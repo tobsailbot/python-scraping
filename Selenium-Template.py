@@ -3,6 +3,11 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 import chromedriver_autoinstaller
 from pyvirtualdisplay import Display
+import random
+
+# Genera un número aleatorio de 4 dígitos
+numero = random.randint(1000, 99999)
+
 display = Display(visible=0, size=(800, 800))  
 display.start()
 
@@ -36,5 +41,5 @@ driver = webdriver.Chrome(options = chrome_options)
 driver.get('http://github.com')
 print(driver.title)
 with open('./GitHub_Action_Results.txt', 'w') as f:
-    f.write(f"Hola esto se corio mas rapido wey??? {driver.title}")
+    f.write(f"Hola esto es un commit  {numero}")
 
