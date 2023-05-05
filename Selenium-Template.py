@@ -58,12 +58,12 @@ for title in titles:
         price_text = price.text
         if title_text == "BOTIN SALA UMBRO PRO 5 BUMP" or title_text == "BOTIN SINTETICO UMBRO SPECIALI III PRO":
         # BOTIN SINTETICO UMBRO PRO 5 BUMP CLUB
-            output += "<h3>" + titles[i].text + "</h3>"
-            output += "<p>" + prices[i].text + "</p>"
+            output += "<h3>" + title_text + "</h3>"
+            output += "<p>" + price_text + "</p>"
             output += "<br/>"
             is_available = True
     continue
-continue
+
 
 output += f"<a href='{url}'>Ir a la tienda</a>"
 
