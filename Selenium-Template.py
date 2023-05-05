@@ -24,16 +24,13 @@ chrome_options = webdriver.ChromeOptions()
 options = [
   # Define window size here
    "--window-size=1200,1200",
-    "--ignore-certificate-errors"
+    "--ignore-certificate-errors",
  
-    #"--headless",
-    #"--disable-gpu",
-    #"--window-size=1920,1200",
-    #"--ignore-certificate-errors",
-    #"--disable-extensions",
-    #"--no-sandbox",
-    #"--disable-dev-shm-usage",
-    #'--remote-debugging-port=9222'
+    "--headless",
+    "--disable-gpu",
+    "--disable-extensions",
+    "--no-sandbox",
+    "--disable-dev-shm-usage",
 ]
 
 for option in options:
