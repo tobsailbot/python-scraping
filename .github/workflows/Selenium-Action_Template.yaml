@@ -2,7 +2,7 @@ name: Run Selenium On GitHub Action
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/90 * * * *'
+    - cron: '*/60 * * * *'
 jobs:
   scrape:
     runs-on: ubuntu-latest
