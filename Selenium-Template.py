@@ -50,11 +50,13 @@ prices = WebDriverWait(driver, 10).until(lambda x: x.find_elements(By.CLASS_NAME
 
 # Iterar sobre los elementos y obtener el innerHTML
 for i in range(len(titles)):
-    if titles[i].text == "BOTIN SINTETICO UMBRO PRO 5 BUMP CLUB" or titles[i].text == "BOTIN SINTETICO UMBRO SPECIALI III PRO":
+    titles = WebDriverWait(driver, 10).until(lambda x: x.find_elements(By.CLASS_NAME, "vtex-product-summary-2-x-productBrand"))
+    if titles[i].text == "BOTIN SALA UMBRO PRO 5 BUMP" or titles[i].text == "BOTIN SINTETICO UMBRO SPECIALI III PRO":
         output += "<h3>" + titles[i].text + "</h3>"
-        is_available = True
+        prices = WebDriverWait(driver, 10).until(lambda x: x.find_elements(By.CLASS_NAME, "glamit-product-price-0-x-sellingPriceValue"))
         output += "<p>" + prices[i].text + "</p>"
         output += "<br/>"
+        is_available = True
 
 
 output += f"<a href='{url}'>Ir a la tienda</a>"
