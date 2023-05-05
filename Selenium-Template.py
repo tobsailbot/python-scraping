@@ -52,16 +52,12 @@ titles = WebDriverWait(driver, 10).until(lambda x: x.find_elements(By.CLASS_NAME
 prices = WebDriverWait(driver, 10).until(lambda x: x.find_elements(By.CLASS_NAME, "glamit-product-price-0-x-sellingPriceValue"))
 
 # Iterar sobre los elementos y obtener el innerHTML
-for title in titles:
-    if title.text == "BOTIN SALA UMBRO PRO 5 BUMP" or title.text == "BOTIN SINTETICO UMBRO SPECIALI III PRO":
-        output += "<h3>" + title.text + "</h3>"
+for i in range(len(titles)):
+    if titles[i].text == "BOTIN SALA UMBRO PRO 5 BUMP" or titles[i].text == "BOTIN SINTETICO UMBRO SPECIALI III PRO":
+        output += "<h3>" + titles[i].text + "</h3>"
         is_available = True
-    for price in prices:
-        # BOTIN SINTETICO UMBRO PRO 5 BUMP CLUB
-        if title.text == "BOTIN SALA UMBRO PRO 5 BUMP" or title.text == "BOTIN SINTETICO UMBRO SPECIALI III PRO":
-            output += "<p>" + price.text + "</p>"
-            output += "<br/>"
-        continue
+        output += "<p>" + prices[i].text + "</p>"
+        output += "<br/>"
 
 
 output += f"<a href='{url}'>Ir a la tienda</a>"
