@@ -16,11 +16,11 @@ jobs:
       - name: Removing previous chrome instances on runner 
         run: sudo apt purge google-chrome-stable  
         
-       # Need to fetch reqs if needed
-      #- name: Installing all necessary packages
-      #  run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay
-      #- name: Install xvfb
-      #  run: sudo apt-get install xvfb
+        # Need to fetch reqs if needed
+      - name: Installing all necessary packages
+        run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay
+      - name: Install xvfb
+        run: sudo apt-get install xvfb
 
       - name: Running the Python script
         run: python Selenium-Template.py
