@@ -86,10 +86,9 @@ data_array = []
 for row in rows:
 
     all_rows = row.find_elements(By.TAG_NAME, 'th') + row.find_elements(By.TAG_NAME, 'td')
-
-    header = ''
+    
     for cell in all_rows:
-        if cell.text:
+        if cell.text != '':
             if "th" in cell.tag_name:
                 index += 1
                 print(index)
@@ -100,10 +99,9 @@ for row in rows:
 
             if "name" in cell.get_attribute('class'):
                 data['name'] = cell.text
-    print('--------------')
-    # pprint(data)
-    print(header)
+
     if data and index == 0:
+        print(header)
         json_list['header'] = header
         data_array.append(data)
     data = {}
