@@ -1,0 +1,236 @@
+[
+    {
+        "header": "Comida",
+        "data": [
+            {
+                "name": "Menú del día (incluyendo bebida) en la zona cara de la ciudad",
+                "price": "ARS $4.353"
+            },
+            {
+                "name": "Menú completo en restaurante de comida rápida (menú big mac o similar)",
+                "price": "ARS $2.686"
+            },
+            {
+                "name": "500 gr (1 lb.) de pechuga de pollo",
+                "price": "ARS $886"
+            },
+            {
+                "name": "1 litro (1 qt.) de leche entera",
+                "price": "ARS $355"
+            },
+            {
+                "name": "12 huevos, grandes",
+                "price": "ARS $905"
+            },
+            {
+                "name": "1 kg (2 lb.) de tomates",
+                "price": "ARS $635"
+            },
+            {
+                "name": "500 gr (16 oz.) de queso nacional",
+                "price": "ARS $1.303"
+            },
+            {
+                "name": "1 kg (2 lb.) de manzanas",
+                "price": "ARS $566"
+            },
+            {
+                "name": "1 kg (2 lb.) of patatas",
+                "price": "ARS $412"
+            },
+            {
+                "name": "0.5 l (16 oz) de cerveza nacional en el supermercado",
+                "price": "ARS $419"
+            },
+            {
+                "name": "1 botella de vino tinto de mesa de buena calidad",
+                "price": "ARS $2.068"
+            },
+            {
+                "name": "2 litros de coca-cola",
+                "price": "ARS $703"
+            },
+            {
+                "name": "Pan para dos personas, 1 día",
+                "price": "ARS $241"
+            }
+        ]
+    },
+    {
+        "header": "Vivienda",
+        "data": [
+            {
+                "name": "Alquiler de un piso de 85 m2 (900 sqft) amueblado en la zona cara de la ciudad",
+                "price": "ARS $188.802"
+            },
+            {
+                "name": "Alquiler de un piso de 85 m2 (900 sqft) amueblado en una zona normal de la ciudad",
+                "price": "ARS $120.130"
+            },
+            {
+                "name": "Gastos de luz, agua y electricidad para 2 personas en un piso de 85m2",
+                "price": "ARS $16.485"
+            },
+            {
+                "name": "Alquiler de un estudio de 45 m2 (480 sqft) amueblado en la zona cara de la ciudad",
+                "price": "ARS $159.476"
+            },
+            {
+                "name": "Alquiler de un estudio de 45 m2 (480 sqft) amueblado en una zona normal de la ciudad",
+                "price": "ARS $95.314"
+            },
+            {
+                "name": "Gastos de luz, agua y electricidad para 1 persona en un estudio de 45m2",
+                "price": "ARS $14.887"
+            },
+            {
+                "name": "Internet 8 mbps (1 mes)",
+                "price": "ARS $5.193"
+            },
+            {
+                "name": "Tv de pantalla plana de 40 pulgadas",
+                "price": "ARS $106.768"
+            },
+            {
+                "name": "Microondas de 800/900 watt (bosch, panasonic, lg, sharp, o equivalente)",
+                "price": "ARS $60.414"
+            },
+            {
+                "name": "Detergente líquido (3 l. ~ 100 oz.)",
+                "price": "ARS $1.638"
+            },
+            {
+                "name": "Precio por hora de servicio de limpieza doméstica",
+                "price": "ARS $1.863"
+            }
+        ]
+    },
+    {
+        "header": "Ropa",
+        "data": [
+            {
+                "name": "1 par de vaqueros (levis 501 o similar)",
+                "price": "ARS $22.796"
+            },
+            {
+                "name": "1 vestido de señora de verano en una tienda de moda (zara, h&m o tiendas similares)",
+                "price": "ARS $14.546"
+            },
+            {
+                "name": "1 par de zapatillas de deporte (nike, adidas, o marca similar)",
+                "price": "ARS $40.535"
+            },
+            {
+                "name": "1 par de zapatos de cuero de caballero",
+                "price": "ARS $35.183"
+            }
+        ]
+    },
+    {
+        "header": "Transporte",
+        "data": [
+            {
+                "name": "Volkswagen golf 1.4 tsi 150 cv (o similar), nuevo, sin extras",
+                "price": "ARS $8.245.180"
+            },
+            {
+                "name": "1 litro (1/4 de galón) de gasolina",
+                "price": "ARS $288"
+            },
+            {
+                "name": "Abono mensual del transporte público",
+                "price": "ARS $5.174"
+            }
+        ]
+    },
+    {
+        "header": "Cuidado Personal",
+        "data": [
+            {
+                "name": "Medicina para el resfriado para 6 días (tylenol, frenadol, coldrex, o equivalente)",
+                "price": "ARS $1.578"
+            },
+            {
+                "name": "1 caja de antibióticos de 12 dosis",
+                "price": "ARS $2.846"
+            },
+            {
+                "name": "Visita corta a médico privado (15 minutos)",
+                "price": "ARS $5.953"
+            },
+            {
+                "name": "1 caja de 32 tampones (tampax, ob, o marca similar)",
+                "price": "ARS $2.004"
+            },
+            {
+                "name": "Desodorante roll-on (50ml ~ 1.5 oz.)",
+                "price": "ARS $754"
+            },
+            {
+                "name": "Champú 2-en-1 (400 ml ~ 12 oz.)",
+                "price": "ARS $1.161"
+            },
+            {
+                "name": "4 rollos de papel higiénico",
+                "price": "ARS $725"
+            },
+            {
+                "name": "Un tubo de pasta de dientes",
+                "price": "ARS $675"
+            },
+            {
+                "name": "Corte de pelo básico en la zona cara de la ciudad",
+                "price": "ARS $2.307"
+            }
+        ]
+    },
+    {
+        "header": "Entretenimiento",
+        "data": [
+            {
+                "name": "Cena normal para dos en un restaurante de barrio",
+                "price": "ARS $6.819"
+            },
+            {
+                "name": "2 entradas para el cine, sesión normal",
+                "price": "ARS $3.094"
+            },
+            {
+                "name": "2 entradas para el teatro (en los mejores asientos disponibles)",
+                "price": "ARS $12.526"
+            },
+            {
+                "name": "Cena para dos en un restaurante italiano en la zona cara, incluyendo entrantes, plato principal, vino y postre",
+                "price": "ARS $11.097"
+            },
+            {
+                "name": "1 cocktail, copa o trago en un club o disco de la zona cara",
+                "price": "ARS $2.345"
+            },
+            {
+                "name": "Capuccino en la zona cara de la ciudad",
+                "price": "ARS $1.584"
+            },
+            {
+                "name": "1 cerveza de medio litro en un bar de barrio",
+                "price": "ARS $816"
+            },
+            {
+                "name": "Ipad wi-fi 128gb",
+                "price": "ARS $353.410"
+            },
+            {
+                "name": "1 min. de llamadas con tarifa prepago (sin descuentos ni planes mensuales)",
+                "price": "ARS $83"
+            },
+            {
+                "name": "Abono mensual a un gimnasio en la zona cara",
+                "price": "ARS $8.249"
+            },
+            {
+                "name": "1 paquete de cigarrillos marlboro",
+                "price": "ARS $789"
+            }
+        ]
+    }
+]

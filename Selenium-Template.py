@@ -53,10 +53,8 @@ for row in rows:
         if cell.text != '':
             if "th" in cell.tag_name:
                 header = cell.text
-                # pprint(json_list)
                 data_array = []
                 json_list = {}
-                print('--------------------------')
                 big_data.append(json_list)
 
             if "name" in cell.get_attribute('class'):
@@ -71,47 +69,12 @@ for row in rows:
         data = {}
         json_list['data'] = data_array
 
-# pprint(json_list)
 pprint(big_data)
 
 # Cierra el navegador cuando hayas terminado
 driver.quit()
 
 
-
-
-
-
-# for row in rows:
-#     header_cells = row.find_elements(By.TAG_NAME, 'th')
-#     cells = row.find_elements(By.TAG_NAME, 'td')
-#     all_rows = header_cells + cells
-
-#     if header_cells:
-#         for header in header_cells:
-#             if header.text:
-#                 header_data =[ {
-#                     "header": header.text
-#                 }]
-#                 data_list.append(header_data)
-#                 index += 1
-
-
-#     for cell in cells:
-#         if cell.text:
-#             cell_data = {}
-#             if "name" in cell.get_attribute('class'):
-#                 cell_data['name'] = cell.text
-
-#             if "price" in cell.get_attribute('class'):
-#                 cell_data['price'] = cell.text
-#             if cell_index == 1:
-#                 print(cell_data)
-#                 data_cells.append(cell_data)
-#                 cell_index = 0
-#             # cell_data.append(data)
-#             # data_list[index]['data'] = cell_data
-#             # print(cell.get_attribute('class'))
-#             cell_index += 1
-    
-#     print(index)
+# Guarda los datos en un archivo JSON
+with open('datos.json', 'w', encoding='utf-8') as json_file:
+    json.dump(big_data, json_file, ensure_ascii=False, indent=4)
