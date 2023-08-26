@@ -40,11 +40,47 @@ rows = table.find_elements(By.TAG_NAME, 'tr')
 
 # Lista de datos
 json_list = {}
-data_cells = []
+big_data = []
+
+data = {}
+data_array = []
 
 # Itera a través de las filas e imprime el contenido de las celdas
-index = -1
-cell_index = 0
+for row in rows:
+    all_rows = row.find_elements(By.TAG_NAME, 'th') + row.find_elements(By.TAG_NAME, 'td')
+
+    for cell in all_rows:
+        if cell.text != '':
+            if "th" in cell.tag_name:
+                header = cell.text
+                # pprint(json_list)
+                data_array = []
+                json_list = {}
+                print('--------------------------')
+                big_data.append(json_list)
+
+            if "name" in cell.get_attribute('class'):
+                data['name'] = cell.text
+
+            if "price" in cell.get_attribute('class'):
+                data['price'] = cell.text
+
+    if data:
+        data_array.append(data)
+        json_list['header'] = header
+        data = {}
+        json_list['data'] = data_array
+
+# pprint(json_list)
+pprint(big_data)
+
+# Cierra el navegador cuando hayas terminado
+driver.quit()
+
+
+
+
+
 
 # for row in rows:
 #     header_cells = row.find_elements(By.TAG_NAME, 'th')
@@ -79,39 +115,3 @@ cell_index = 0
 #             cell_index += 1
     
 #     print(index)
-
-data = {}
-data_array = []
-
-for row in rows:
-
-    all_rows = row.find_elements(By.TAG_NAME, 'th') + row.find_elements(By.TAG_NAME, 'td')
-    
-    for cell in all_rows:
-        if cell.text != '':
-            if "th" in cell.tag_name:
-                index += 1
-                print(index)
-                header = cell.text
-
-            if "price" in cell.get_attribute('class'):
-                data['price'] = cell.text
-
-            if "name" in cell.get_attribute('class'):
-                data['name'] = cell.text
-
-    if data and index == 0:
-        print(header)
-        json_list['header'] = header
-        data_array.append(data)
-    data = {}
-    
-    json_list['data'] = data_array
-
-
-# pprint(data_array)
-pprint(json_list)
-# pprint(data_cells)
-
-# Cierra el navegador cuando hayas terminado
-driver.quit()
