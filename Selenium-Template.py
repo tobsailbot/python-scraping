@@ -61,7 +61,7 @@ for row in rows:
                 data['name'] = cell.text
 
             if "price" in cell.get_attribute('class'):
-                data['price'] = cell.text
+                data['price'] = int((cell.text[5:]).replace(".", ""))
 
     if data:
         data_array.append(data)
@@ -76,5 +76,5 @@ driver.quit()
 
 
 # Guarda los datos en un archivo JSON
-with open('datos.json', 'w', encoding='utf-8') as json_file:
+with open('data.json', 'w', encoding='utf-8') as json_file:
     json.dump(big_data, json_file, ensure_ascii=False, indent=4)
