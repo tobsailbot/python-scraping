@@ -4,16 +4,20 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import json
+
 import chromedriver_autoinstaller
+from pyvirtualdisplay import Display
 
+display = Display(visible=0, size=(800, 800))
+display.start()
 
+# Check if the current version of chromedriver exists
+chromedriver_autoinstaller.install()
+# and if it doesn't exist, download it automatically,
+# then add chromedriver to path
 
-# chromedriver_autoinstaller.install()  # Check if the current version of chromedriver exists
-                                      # and if it doesn't exist, download it automatically,
-                                      # then add chromedriver to path
-
-chrome_options = webdriver.ChromeOptions()    
-# Add your options as needed    
+chrome_options = webdriver.ChromeOptions()
+# Add your options as needed
 options = [
     "--ignore-certificate-errors",
     "--headless",
@@ -26,14 +30,15 @@ options = [
 for option in options:
     chrome_options.add_argument(option)
 
-    
-driver = webdriver.Chrome(options = chrome_options)
+
+driver = webdriver.Chrome(options=chrome_options)
 
 url = 'https://www.expatistan.com/es/costo-de-vida/pais/argentina'
 driver.get(url)
 
 # Esperar a que la página cargue completamente
-table = WebDriverWait(driver, 10).until(lambda x: x.find_element(By.XPATH, '''//*[@id="content"]/div/div[3]/table'''))
+table = WebDriverWait(driver, 10).until(lambda x: x.find_element(
+    By.XPATH, '''//*[@id="content"]/div/div[3]/table'''))
 
 # Encuentra todas las filas de la tabla
 rows = table.find_elements(By.TAG_NAME, 'tr')
@@ -47,7 +52,8 @@ data_array = []
 
 # Itera a través de las filas e imprime el contenido de las celdas
 for row in rows:
-    all_rows = row.find_elements(By.TAG_NAME, 'th') + row.find_elements(By.TAG_NAME, 'td')
+    all_rows = row.find_elements(
+        By.TAG_NAME, 'th') + row.find_elements(By.TAG_NAME, 'td')
 
     for cell in all_rows:
         if cell.text != '':
