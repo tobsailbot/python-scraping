@@ -4,55 +4,55 @@
         "data": [
             {
                 "name": "Menú del día (incluyendo bebida) en la zona cara de la ciudad",
-                "price": 4353
+                "price": 4531
             },
             {
                 "name": "Menú completo en restaurante de comida rápida (menú big mac o similar)",
-                "price": 2686
+                "price": 2768
             },
             {
                 "name": "500 gr (1 lb.) de pechuga de pollo",
-                "price": 886
+                "price": 1009
             },
             {
                 "name": "1 litro (1 qt.) de leche entera",
-                "price": 355
+                "price": 373
             },
             {
                 "name": "12 huevos, grandes",
-                "price": 905
+                "price": 952
             },
             {
                 "name": "1 kg (2 lb.) de tomates",
-                "price": 635
+                "price": 650
             },
             {
                 "name": "500 gr (16 oz.) de queso nacional",
-                "price": 1303
+                "price": 1372
             },
             {
                 "name": "1 kg (2 lb.) de manzanas",
-                "price": 566
+                "price": 644
             },
             {
                 "name": "1 kg (2 lb.) of patatas",
-                "price": 412
+                "price": 416
             },
             {
                 "name": "0.5 l (16 oz) de cerveza nacional en el supermercado",
-                "price": 419
+                "price": 466
             },
             {
                 "name": "1 botella de vino tinto de mesa de buena calidad",
-                "price": 2068
+                "price": 2012
             },
             {
                 "name": "2 litros de coca-cola",
-                "price": 703
+                "price": 709
             },
             {
                 "name": "Pan para dos personas, 1 día",
-                "price": 241
+                "price": 251
             }
         ]
     },
@@ -61,47 +61,47 @@
         "data": [
             {
                 "name": "Alquiler de un piso de 85 m2 (900 sqft) amueblado en la zona cara de la ciudad",
-                "price": 188802
+                "price": 203162
             },
             {
                 "name": "Alquiler de un piso de 85 m2 (900 sqft) amueblado en una zona normal de la ciudad",
-                "price": 120130
+                "price": 129789
             },
             {
                 "name": "Gastos de luz, agua y electricidad para 2 personas en un piso de 85m2",
-                "price": 16485
+                "price": 19983
             },
             {
                 "name": "Alquiler de un estudio de 45 m2 (480 sqft) amueblado en la zona cara de la ciudad",
-                "price": 159476
+                "price": 142248
             },
             {
                 "name": "Alquiler de un estudio de 45 m2 (480 sqft) amueblado en una zona normal de la ciudad",
-                "price": 95314
+                "price": 103814
             },
             {
                 "name": "Gastos de luz, agua y electricidad para 1 persona en un estudio de 45m2",
-                "price": 14887
+                "price": 17642
             },
             {
                 "name": "Internet 8 mbps (1 mes)",
-                "price": 5193
+                "price": 4909
             },
             {
                 "name": "Tv de pantalla plana de 40 pulgadas",
-                "price": 106768
+                "price": 114096
             },
             {
                 "name": "Microondas de 800/900 watt (bosch, panasonic, lg, sharp, o equivalente)",
-                "price": 60414
+                "price": 72368
             },
             {
                 "name": "Detergente líquido (3 l. ~ 100 oz.)",
-                "price": 1638
+                "price": 1753
             },
             {
                 "name": "Precio por hora de servicio de limpieza doméstica",
-                "price": 1863
+                "price": 1852
             }
         ]
     },
@@ -110,19 +110,19 @@
         "data": [
             {
                 "name": "1 par de vaqueros (levis 501 o similar)",
-                "price": 22796
+                "price": 27424
             },
             {
                 "name": "1 vestido de señora de verano en una tienda de moda (zara, h&m o tiendas similares)",
-                "price": 14546
+                "price": 15736
             },
             {
                 "name": "1 par de zapatillas de deporte (nike, adidas, o marca similar)",
-                "price": 40535
+                "price": 43356
             },
             {
                 "name": "1 par de zapatos de cuero de caballero",
-                "price": 35183
+                "price": 39917
             }
         ]
     },
@@ -131,15 +131,15 @@
         "data": [
             {
                 "name": "Volkswagen golf 1.4 tsi 150 cv (o similar), nuevo, sin extras",
-                "price": 8245180
+                "price": 8129010
             },
             {
                 "name": "1 litro (1/4 de galón) de gasolina",
-                "price": 288
+                "price": 287
             },
             {
                 "name": "Abono mensual del transporte público",
-                "price": 5174
+                "price": 5689
             }
         ]
     },
@@ -148,15 +148,15 @@
         "data": [
             {
                 "name": "Medicina para el resfriado para 6 días (tylenol, frenadol, coldrex, o equivalente)",
-                "price": 1578
+                "price": 1840
             },
             {
                 "name": "1 caja de antibióticos de 12 dosis",
-                "price": 2846
+                "price": 2927
             },
             {
                 "name": "Visita corta a médico privado (15 minutos)",
-                "price": 5953
+                "price": 6467
             },
             {
                 "name": "1 caja de 32 tampones (tampax, ob, o marca similar)",
@@ -164,23 +164,23 @@
             },
             {
                 "name": "Desodorante roll-on (50ml ~ 1.5 oz.)",
-                "price": 754
+                "price": 881
             },
             {
                 "name": "Champú 2-en-1 (400 ml ~ 12 oz.)",
-                "price": 1161
+                "price": 1324
             },
             {
                 "name": "4 rollos de papel higiénico",
-                "price": 725
+                "price": 766
             },
             {
                 "name": "Un tubo de pasta de dientes",
-                "price": 675
+                "price": 714
             },
             {
                 "name": "Corte de pelo básico en la zona cara de la ciudad",
-                "price": 2307
+                "price": 2476
             }
         ]
     },
@@ -189,47 +189,47 @@
         "data": [
             {
                 "name": "Cena normal para dos en un restaurante de barrio",
-                "price": 6819
+                "price": 7474
             },
             {
                 "name": "2 entradas para el cine, sesión normal",
-                "price": 3094
+                "price": 3077
             },
             {
                 "name": "2 entradas para el teatro (en los mejores asientos disponibles)",
-                "price": 12526
+                "price": 11922
             },
             {
                 "name": "Cena para dos en un restaurante italiano en la zona cara, incluyendo entrantes, plato principal, vino y postre",
-                "price": 11097
+                "price": 12500
             },
             {
                 "name": "1 cocktail, copa o trago en un club o disco de la zona cara",
-                "price": 2345
+                "price": 2338
             },
             {
                 "name": "Capuccino en la zona cara de la ciudad",
-                "price": 1584
+                "price": 1428
             },
             {
                 "name": "1 cerveza de medio litro en un bar de barrio",
-                "price": 816
+                "price": 963
             },
             {
                 "name": "Ipad wi-fi 128gb",
-                "price": 353410
+                "price": 343299
             },
             {
                 "name": "1 min. de llamadas con tarifa prepago (sin descuentos ni planes mensuales)",
-                "price": 83
+                "price": 85
             },
             {
                 "name": "Abono mensual a un gimnasio en la zona cara",
-                "price": 8249
+                "price": 8684
             },
             {
                 "name": "1 paquete de cigarrillos marlboro",
-                "price": 789
+                "price": 820
             }
         ]
     }

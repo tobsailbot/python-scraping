@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import json
 import chromedriver_autoinstaller
-from pprint import pprint
+
 
 
 # chromedriver_autoinstaller.install()  # Check if the current version of chromedriver exists
@@ -69,7 +69,6 @@ for row in rows:
         data = {}
         json_list['data'] = data_array
 
-pprint(big_data)
 
 # Cierra el navegador cuando hayas terminado
 driver.quit()
