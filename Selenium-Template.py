@@ -83,3 +83,5 @@ driver.quit()
 # Guarda los datos en un archivo JSON
 with open('data.json', 'w', encoding='utf-8') as json_file:
     json.dump(big_data, json_file, ensure_ascii=False, indent=4)
+
+
