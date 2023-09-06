@@ -76,12 +76,12 @@ for row in rows:
         json_list['data'] = data_array
 
 
-# Cierra el navegador cuando hayas terminado
-driver.quit()
+# # Cierra el navegador cuando hayas terminado
+# driver.quit()
 
 
 # Guarda los datos en un archivo JSON
-with open('data.json', 'w', encoding='utf-8') as json_file:
+with open('./data.json', 'w', encoding='utf-8') as json_file:
     json.dump(big_data, json_file, ensure_ascii=False, indent=4)
 
 
