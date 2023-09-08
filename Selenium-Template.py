@@ -4,17 +4,15 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import json
+import datetime
 
 import chromedriver_autoinstaller
 from pyvirtualdisplay import Display
 
 display = Display(visible=0, size=(800, 800))
 display.start()
-
-# Check if the current version of chromedriver exists
 chromedriver_autoinstaller.install()
-# and if it doesn't exist, download it automatically,
-# then add chromedriver to path
+
 
 chrome_options = webdriver.ChromeOptions()
 # Add your options as needed
@@ -42,6 +40,11 @@ table = WebDriverWait(driver, 10).until(lambda x: x.find_element(
 
 # Encuentra todas las filas de la tabla
 rows = table.find_elements(By.TAG_NAME, 'tr')
+
+# timestamp actual
+timestamp = {
+    "timestamp":datetime.datetime.now().timestamp()
+}
 
 # Lista de datos
 json_list = {}
@@ -79,6 +82,7 @@ for row in rows:
 # # Cierra el navegador cuando hayas terminado
 # driver.quit()
 
+big_data.append(timestamp)
 
 # Guarda los datos en un archivo JSON
 with open('./data.json', 'w', encoding='utf-8') as json_file:
