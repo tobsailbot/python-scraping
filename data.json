@@ -4,35 +4,35 @@
         "data": [
             {
                 "name": "Menú del día (incluyendo bebida) en la zona cara de la ciudad",
-                "price": 4531
+                "price": 4496
             },
             {
                 "name": "Menú completo en restaurante de comida rápida (menú big mac o similar)",
-                "price": 2768
+                "price": 2805
             },
             {
                 "name": "500 gr (1 lb.) de pechuga de pollo",
-                "price": 1009
+                "price": 1013
             },
             {
                 "name": "1 litro (1 qt.) de leche entera",
-                "price": 373
+                "price": 375
             },
             {
                 "name": "12 huevos, grandes",
-                "price": 952
+                "price": 978
             },
             {
                 "name": "1 kg (2 lb.) de tomates",
-                "price": 650
+                "price": 655
             },
             {
                 "name": "500 gr (16 oz.) de queso nacional",
-                "price": 1372
+                "price": 1414
             },
             {
                 "name": "1 kg (2 lb.) de manzanas",
-                "price": 644
+                "price": 657
             },
             {
                 "name": "1 kg (2 lb.) of patatas",
@@ -40,11 +40,11 @@
             },
             {
                 "name": "0.5 l (16 oz) de cerveza nacional en el supermercado",
-                "price": 466
+                "price": 464
             },
             {
                 "name": "1 botella de vino tinto de mesa de buena calidad",
-                "price": 2012
+                "price": 2067
             },
             {
                 "name": "2 litros de coca-cola",
@@ -61,23 +61,23 @@
         "data": [
             {
                 "name": "Alquiler de un piso de 85 m2 (900 sqft) amueblado en la zona cara de la ciudad",
-                "price": 203162
+                "price": 215099
             },
             {
                 "name": "Alquiler de un piso de 85 m2 (900 sqft) amueblado en una zona normal de la ciudad",
-                "price": 129789
+                "price": 128147
             },
             {
                 "name": "Gastos de luz, agua y electricidad para 2 personas en un piso de 85m2",
-                "price": 19983
+                "price": 20182
             },
             {
                 "name": "Alquiler de un estudio de 45 m2 (480 sqft) amueblado en la zona cara de la ciudad",
-                "price": 142248
+                "price": 138899
             },
             {
                 "name": "Alquiler de un estudio de 45 m2 (480 sqft) amueblado en una zona normal de la ciudad",
-                "price": 103814
+                "price": 101043
             },
             {
                 "name": "Gastos de luz, agua y electricidad para 1 persona en un estudio de 45m2",
@@ -85,7 +85,7 @@
             },
             {
                 "name": "Internet 8 mbps (1 mes)",
-                "price": 4909
+                "price": 5028
             },
             {
                 "name": "Tv de pantalla plana de 40 pulgadas",
@@ -101,7 +101,7 @@
             },
             {
                 "name": "Precio por hora de servicio de limpieza doméstica",
-                "price": 1852
+                "price": 1842
             }
         ]
     },
@@ -110,19 +110,19 @@
         "data": [
             {
                 "name": "1 par de vaqueros (levis 501 o similar)",
-                "price": 27424
+                "price": 27360
             },
             {
                 "name": "1 vestido de señora de verano en una tienda de moda (zara, h&m o tiendas similares)",
-                "price": 15736
+                "price": 16086
             },
             {
                 "name": "1 par de zapatillas de deporte (nike, adidas, o marca similar)",
-                "price": 43356
+                "price": 44420
             },
             {
                 "name": "1 par de zapatos de cuero de caballero",
-                "price": 39917
+                "price": 40361
             }
         ]
     },
@@ -135,11 +135,11 @@
             },
             {
                 "name": "1 litro (1/4 de galón) de gasolina",
-                "price": 287
+                "price": 286
             },
             {
                 "name": "Abono mensual del transporte público",
-                "price": 5689
+                "price": 5662
             }
         ]
     },
@@ -156,7 +156,7 @@
             },
             {
                 "name": "Visita corta a médico privado (15 minutos)",
-                "price": 6467
+                "price": 8147
             },
             {
                 "name": "1 caja de 32 tampones (tampax, ob, o marca similar)",
@@ -172,7 +172,7 @@
             },
             {
                 "name": "4 rollos de papel higiénico",
-                "price": 766
+                "price": 865
             },
             {
                 "name": "Un tubo de pasta de dientes",
@@ -189,43 +189,43 @@
         "data": [
             {
                 "name": "Cena normal para dos en un restaurante de barrio",
-                "price": 7474
+                "price": 7642
             },
             {
                 "name": "2 entradas para el cine, sesión normal",
-                "price": 3077
+                "price": 3106
             },
             {
                 "name": "2 entradas para el teatro (en los mejores asientos disponibles)",
-                "price": 11922
+                "price": 11901
             },
             {
                 "name": "Cena para dos en un restaurante italiano en la zona cara, incluyendo entrantes, plato principal, vino y postre",
-                "price": 12500
+                "price": 13017
             },
             {
                 "name": "1 cocktail, copa o trago en un club o disco de la zona cara",
-                "price": 2338
+                "price": 2349
             },
             {
                 "name": "Capuccino en la zona cara de la ciudad",
-                "price": 1428
+                "price": 1400
             },
             {
                 "name": "1 cerveza de medio litro en un bar de barrio",
-                "price": 963
+                "price": 992
             },
             {
                 "name": "Ipad wi-fi 128gb",
-                "price": 343299
+                "price": 358370
             },
             {
                 "name": "1 min. de llamadas con tarifa prepago (sin descuentos ni planes mensuales)",
-                "price": 85
+                "price": 66
             },
             {
                 "name": "Abono mensual a un gimnasio en la zona cara",
-                "price": 8684
+                "price": 8881
             },
             {
                 "name": "1 paquete de cigarrillos marlboro",
